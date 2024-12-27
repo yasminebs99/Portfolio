@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <nav>
+        <a href="#" class="logo"><span>Yasmine Ben Saad</span></a>
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
+        </ul>
+        <i class='bx bx-menu-alt-right' id="menu"></i>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </nav>
+
+
+    <section id="home">
+        <img src="Capture.JPG" alt="">
+        <div class="info-box">
+            <h1>Hello, I'm Yasmine</h1>
+            <h3><span>AI/ML Engineer</span></h3>
+            <p>Recent graduate with a foundation in Machine Learning. I enjoy problem-solving, coding, and tackling complex 
+                challenges. I excel at collaborative environments, value innovation, and am self-motivated. Eager to continuously 
+                learn and contribute to achieving team goals. </p>
+        </div>
+        <div class="btn-box">
+            <a href="Yasmine-Ben-Saad-PResume.pdf" class="btn" download="Yasmine_Ben_Saad_CV.pdf">Download CV</a>
+        </div>
+    </section>
+
+<!--Project Section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="trash.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>AI-powered Waste Sorting</h4>
+                    <p>● Secured 85% accuracy through the development of DL model leveraging VGG16. 
+                       <br/>● Successfully deploy the model on a Raspberry Pi 4 using a camera for data input.<br></p>
+                    <a href="https://github.com/yasminebs99/Detection-and-sorting-of-waste-using-Raspberry-pi" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="chatbot.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Chatbot detects 7 emotions through speech recognition</h4>
+                    <p>● Guaranteed the preprocessed dataset's adherence to defined quality standards. 
+                        <br/>● Obtained 87% accuracy in the model of emotion type extraction.<br></p>
+                    <a href="https://github.com/yasminebs99/Chatbot-detects-emotions-through-speech-recognition" target="_blank">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img3.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Exploratory-Data-Analysis---Retail</h4>
+                    <p>● Conducted detailed analysis of sales, profit, and customer segments to identify key performance drivers and optimize business strategies.</p>
+                    <a href="https://github.com/yasminebs99/Task3-Exploratory-Data-Analysis---Retail" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img4.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Character Detector Recognition</h4>
+                    <p>● Implemented Tesseract OCR to capture and convert text from each frame of the vedio, 
+                       <br/>●  Developed a text extraction tool using OpenCV and Tesseract OCR to recognize and extract text from images<br></p>
+                    <a href="https://github.com/yasminebs99/character-detector-recognition" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img5.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Real time social distancing detector</h4>
+                    <p>● Implemented an algorithm to calculate the distance between people and alert when the distance falls below a defined threshold, ensuring compliance with social distancing guidelines.</p>
+                    <a href="https://github.com/yasminebs99/real-time-social-distancing-detector" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img6.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>AI-Traffic Sign Classification</h4>
+                    <p>● Utilized datasets such as German Traffic Sign Recognition Benchmark (GTSRB) for training, implementing data preprocessing, and augmentation techniques to improve model performance.
+                       <br/>● Acquired a high accuracy of 89% in a Machine Learning model.<br></p>
+                       <a href="https://github.com/yasminebs99/Traffic-Sign-Classification" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img7.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>AI-base Face Mask Detection</h4>
+                    <p>● Integrated pre-trained models (MobileNet) for accurate face detectionof masked and unmasked individuals.
+                       <br/> ● Reached impressive 98% accuracy by utilizing MobileNetV<br></p>
+                       <a href="https://github.com/yasminebs99/face-mask-detector" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img8.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>SUMMARIZER - Flask-based Web Application</h4>
+                    <p>● Delivered a summary from 3 different sources (document, videos, and web pages).  
+                       <br/>● Produced a Flask-based web application that responds in an average of 1 minute.<br></p>
+                       <a href="https://github.com/yasminebs99/Text-Summarizer" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img9.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Text Generation with Markov Chains</h4>
+                    <p>● Developed a Python-based model leveraging Markov Chains to generate contextually relevant text based on input data. 
+                       <br/>● Applied probabilistic models to simulate natural language and produce meaningful, coherent text.<br></p>
+                    
+                    <a href="https://github.com/yasminebs99/PRODIGY_GA_03" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img10.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Image-to-Image Translation with cGAN</h4>
+                    <p>● Scalable and Robust Architecture Leverages cGAN’s ability to generalize across various domains. 
+                       <br/>● Visualization and Tuning Tools Includes utilities for inspecting and fine-tuning generator and discriminator outputs for improved performance.<br></p>
+                    
+                    <a href="https://github.com/yasminebs99/PRODIGY_GA_04" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img13.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>GenAI - Symptom Image Generation for Diseases</h4>
+                    <p>● Automated the generation of realistic symptom illustrations using Stable Diffusion pipeline. 
+                       <br/>● Processed and enriched a disease dataset by associating symptoms with corresponding AI-generated images.<br></p>
+                    
+                    <a href="https://github.com/yasminebs99/PRODIGY_GA_02" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img11.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Neural Style Transfer</h4>
+                    <p>● Artistic Image Transformation Combines content and style images to produce visually stunning, stylized images using deep learning techniques.
+                        <br/> ● Customizable Style BlendingAllows fine-tuning of the balance between content and style through adjustable hyperparameters.<br>
+                        </p>
+                    
+                    <a href="https://github.com/yasminebs99/PRODIGY_GA_05" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img12.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Food Recognition and Calorie Estimation</h4>
+                    <p>● Food Recognition with Deep Learning Identifies food items from a wide range of 101 categories. 
+                       <br/>● Calorie Estimation Estimates the calorie content of food items.<br></p>
+                    
+                    <a href="https://github.com/yasminebs99/PRODIGY_ML_045" target="_blank">
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Experience Section-->
+    <section class="services" id="experience">
+    <h2 class="headinng">My <span>Experience</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <img src="logo_small.png" alt="">
+            <h3>Data Science</h3>
+            <p>Singapore 
+                <br/>03/2024 - 04/2024<br> </p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <img src="1630527729434-removebg-preview (1).png" alt="">
+            <h3>AI Engineer</h3>
+            <p>Chemnitz, Germany 
+                <br/>04/2023 - 09/2023<br></p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <img src="images-removebg-preview.png" alt="">
+            <h3>R&D Engineer</h3>
+            <p>Sfax, Tunisia
+                <br/>07/2022 - 08/2022<br></p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+    </section>
+
+
+    <!--Publication Section-->
+    <section class="services1" id="publications">
+        <h1 class="header">Publications/<span>Research</span></h1>
+        <div class="services-container1">
+            <div class="box">
+                <h1><span> Combinative Model Compression Approach for Enhancing 1D CNN Efficiency for EIT-based
+                    Hand Gesture Recognition on IoT Edge Devices</span></h1>
+                <h2>Publication date: 2024/12/18<br/>Publisher in: <span>Elsevier</span><br></h2>
+                <a href="https://www.sciencedirect.com/science/article/pii/S2542660524003445" target="_blank">
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section--> 
+    <footer id="contact">
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <span>Sousse, Tunisia</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class="fa-solid fa-phone"></i></span>
+                <span>+216 53 224 136</span>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="social-icons">
+                <div class="col-box">
+                    <a href="https://github.com/yasminebs99" target="_blank">
+                        <span><i class="fa-brands fa-github"></i></span>
+                        <span>yasminebs99</span>
+                </a>
+                </div>
+                <div class="col-box">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <span>yasminebensaad99@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+
+    <script src="scripte.js" defer></script>
+
+</body>
+</html>
