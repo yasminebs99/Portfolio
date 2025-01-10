@@ -148,6 +148,7 @@ section{
     align-items: center;
     gap: 2rem;
 }
+
 .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
@@ -250,15 +251,25 @@ section{
     margin: 0.5em 0;
     color: white;
 }
+.cert {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 2em; /* Spacing between the grid items */
+    padding: 2em; /* Add padding for aesthetics */
+  }
+  
 .services-container1{
     display: grid;
     background: #343c55;
     border-radius: 0.7em;
     width: 500px;
     height: 300px;
+    
     gap: 2em;
 }
+
 .box{
+    
     border: 3px solid #343c55;
     border-radius: 0.7em;
     align-items: center;
@@ -291,6 +302,8 @@ section{
     font-size: 1rem;
     color: white;
 }
+
+
 footer{
     display: flex;
     align-items: center;
